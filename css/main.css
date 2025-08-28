@@ -40,3 +40,104 @@
 #main .main-txt p:first-child{
   margin-bottom: 30px;
 }
+
+
+/* #about */
+#about{
+  height: 100vh;
+  padding: 130px 0;
+}
+#about .inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+#about .about-img{
+  width: 375px;
+  height: 480px;
+  border-radius: 500px;
+  box-shadow: 0 0 200px -5px rgba(255, 255, 255, 0.3);
+  background: url(../img/about_img.png) no-repeat center / cover;
+  margin-top: 100px;
+}
+
+#about .about-content{
+  display: flex;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+#about .about-content div{
+  width: 540px;
+}
+
+#about h1{
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+#about ul{
+  display: flex;
+  gap: 25px;
+}
+#about ul li:first-child{
+  font-weight: 300;
+}
+#about .about-me ul li:first-child{
+  width: 57px;
+}
+#about .education ul li:first-child{
+  width: 178px;
+}
+#about .license ul li:first-child{
+  width: 81px;
+}
+#about .activity ul li:first-child{
+  width: 178px;
+}
+
+#about .skill .skill-content{
+  display: flex;
+  gap: 25px;
+}
+#about .skill ul{
+  gap: 15px;
+  text-align: center;
+  align-items: center;
+}
+#about .skill ul:not(:last-child){
+  margin-bottom: 10px;
+}
+
+#about .skill ul li img{
+  width: 40px;
+  height: 40px;
+}
+#about .skill .line{
+  width: 245px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#about .skill .line::before{
+  content: "";
+  display: flex;
+  height: 20px;
+  background: linear-gradient(90deg,rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 1) 100%);
+  border-radius: 5px;
+}
+
+#about .skill .photoshop .line::before{
+  width: 220px;
+}
+#about .skill .illust .line::before{
+  width: 232px;
+}
+#about .skill .html .line::before, #about .skill .css .line::before{
+  width: 196px;
+}
+#about .skill .rhino .line::before{
+  width: 172px;
+}
+#about .skill .keyshot .line::before{
+  width: 160px;
+}
