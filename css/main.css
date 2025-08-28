@@ -126,18 +126,76 @@
   border-radius: 5px;
 }
 
+@keyframes line1{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 220px;
+  }
+}
+@keyframes line2{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 232px;
+  }
+}
+@keyframes line3{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 245px;
+  }
+}
+@keyframes line4{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 196px;
+  }
+}
+@keyframes line5{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 172px;
+  }
+}
+@keyframes line6{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 160px;
+  }
+}
+
 #about .skill .photoshop .line::before{
   width: 220px;
+  animation: line1 2s alternate 1 ease;
 }
 #about .skill .illust .line::before{
   width: 232px;
+  animation: line2 2s alternate 1 ease;
+}
+#about .skill .figma .line::before{
+  width: 245px;
+  animation: line3 2s alternate 1 ease;
 }
 #about .skill .html .line::before, #about .skill .css .line::before{
   width: 196px;
+  animation: line4 2s alternate 1 ease;
 }
 #about .skill .rhino .line::before{
   width: 172px;
+  animation: line5 2s alternate 1 ease;
 }
 #about .skill .keyshot .line::before{
   width: 160px;
+  animation: line6 2s alternate 1 ease;
 }
