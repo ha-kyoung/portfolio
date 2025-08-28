@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrap{
+  overflow: hidden;
+}
+html{
+  font-size: 10px;
+}
+body{
+  font-family: 'Pretendard', sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 1.35;
+  background-color: black;
+  color: white;
+}
+ol, ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+select, button{
+  border: 0;
+  outline: none;
+  vertical-align: top;
+}
+img{
+  vertical-align: top;
+}
