@@ -5,6 +5,7 @@
   margin: 0 auto;
   max-width: 1620px;
   height: 100vh;
+  padding-left: 50px;
 }
 
 
@@ -68,6 +69,9 @@
 }
 #about .about-content div{
   width: 540px;
+}
+#about .about-content ul{
+  margin-bottom: 5px;
 }
 
 #about h1{
@@ -198,4 +202,285 @@
 #about .skill .keyshot .line::before{
   width: 160px;
   animation: line6 2s alternate 1 ease;
+}
+
+
+
+/* #content-main */
+#content-main .inner{
+  position: relative;
+}
+#content-main .tit01{
+  font-size: 10rem;
+  font-weight: 700;
+  text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+  color: black;
+  position: absolute;
+  top: 80px;
+}
+#content-main .tit02{
+  font-size: 12rem;
+  font-weight: 700;
+  position: absolute;
+  bottom: 75px;
+  right: 0
+}
+
+
+/* #web01 */
+#web01, #web02, #web03{
+  position: relative;
+  height: 100vh;
+}
+.txt-box{
+  width: 780px;
+  height: 100vh;
+  z-index: 99;
+  position: absolute;
+  padding-left: 200px;
+  padding-top: 200px;
+}
+.txt-box h1{
+  font-size: 5rem;
+}
+.txt-box p{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.txt-box h3{
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+.txt-box span{
+  display: block;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.txt-box ul{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+.txt-box .color-box li{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.txt-box .more{
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 700;
+  color: black;
+  text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+  opacity: 0.5;
+}
+.txt-box .more:hover{
+  opacity: 1;
+  text-shadow: none;
+  color: white;
+  transition: 0.5s;
+}
+
+#web01 .img-box{
+  width: 1326px;
+  height: 100vh;
+  background: url(../img/web_pepsi.png) no-repeat top / cover;
+  position: absolute;
+  right: 0;
+}
+
+#web01 .txt-box{
+  background: url(../img/bg01.png) no-repeat center / cover;
+}
+
+#web01 .txt-box .color-box .color01{
+  background-color: #152FC2;
+}
+#web01 .txt-box .color-box .color02{
+  background-color: #EB1934;
+}
+
+#web02 .txt-box{
+  background: url(../img/bg02.png) no-repeat center / cover;
+}
+#web02 .txt-box .color-box .color01{
+  background-color: #EB3C87;
+}
+#web02 .txt-box .color-box .color02{
+  background-color: #333;
+}
+#web02 .img-box{
+  width: 1326px;
+  height: 100vh;
+  background: url(../img/web_lush.png) no-repeat center / cover;
+  position: absolute;
+  right: 0;
+}
+
+#web03 .txt-box{
+  background: url(../img/bg01.png) no-repeat center / cover;
+}
+#web03 .txt-box .color-box .color01{
+  background: linear-gradient(0deg,rgba(209, 228, 186, 1) 0%, rgba(105, 199, 231, 1) 100%);
+}
+#web03 .txt-box .color-box .color02{
+  background-color: #69C7E7;
+}
+#web03 .txt-box .color-box .color03{
+  background-color: #04486F;
+}
+#web03 .img-box{
+  width: 1326px;
+  height: 100vh;
+  background: url(../img/web_telezon.png) no-repeat top / cover;
+  position: absolute;
+  right: 0;
+}
+
+
+/* #uiux */
+#uiux01, #uiux02, #uiux03, #uiux04{
+  position: relative;
+  height: 100vh;
+}
+
+
+#uiux01 .txt-box{
+  background: url(../img/bg01.png) no-repeat center / cover;
+}
+#uiux01 .txt-box .color-box .color01{
+  background-color: #152FC2;
+}
+#uiux01 .txt-box .color-box .color02{
+  background-color: #EB1934;
+}
+#uiux01 .img-box{
+  width: 1326px;
+  height: 100vh;
+  background: url(../img/uiux_pepsi.png) no-repeat center / cover;
+  position: absolute;
+  right: 0;
+}
+
+
+#uiux02 .txt-box{
+  background: url(../img/bg02.png) no-repeat center / cover;
+}
+#uiux02 .txt-box .color-box .color01{
+  background-color: #66B5A4;
+}
+#uiux02 .txt-box .color-box .color02{
+  background-color: #2C8672;
+}
+#uiux02 .txt-box .color-box .color03{
+  background-color: #F8F6E6;
+}
+#uiux02 .txt-box .color-box .color04{
+  background-color: #FFFFFA;
+}
+#uiux02 .img-box{
+  width: 1326px;
+  height: 100vh;
+  background: url(../img/uiux_minemusic.png) no-repeat center / cover;
+  position: absolute;
+  right: 0;
+}
+
+
+#uiux03 .txt-box{
+  background: url(../img/bg01.png) no-repeat center / cover;
+}
+#uiux03 .txt-box .color-box .color01{
+  background-color: #5E90F1;
+}
+#uiux03 .txt-box .color-box .color02{
+  background-color: #68A0E2;
+}
+#uiux03 .txt-box .color-box .color03{
+  background-color: #306CE2;
+}
+#uiux03 .txt-box .color-box .color04{
+  background-color: #96D0D2;
+}
+#uiux03 .img-box{
+  width: 1326px;
+  height: 100vh;
+  background: url(../img/uiux_lifemind.png) no-repeat center / cover;
+  position: absolute;
+  right: 0;
+}
+
+
+#uiux04 .txt-box{
+  background: url(../img/bg02.png) no-repeat center / cover;
+  padding-top: 300px;
+}
+#uiux04 .img-box{
+  width: 1326px;
+  height: 100vh;
+  background: url(../img/uiux_hangang.png) no-repeat center / cover;
+  position: absolute;
+  right: 0;
+}
+
+
+
+/* #product */
+#product01, #product02{
+  position: relative;
+  height: 100vh;
+}
+
+#product01 .txt-box{
+  background: url(../img/bg01.png) no-repeat center / cover;
+  padding-top: 250px;
+}
+#product01 .img-box{
+  width: 1326px;
+  height: 100vh;
+  background: url(../img/product_unforbidden.png) no-repeat top / cover;
+  position: absolute;
+  right: 0;
+}
+
+
+#product02 .txt-box{
+  background: url(../img/bg02.png) no-repeat center / cover;
+  padding-top: 250px;
+}
+#product02 .img-box{
+  width: 1326px;
+  height: 100vh;
+  background: url(../img/product_turnoff.png) no-repeat top / cover;
+  position: absolute;
+  right: 0;
+}
+
+
+
+/* #end */
+#end .inner{
+  position: relative;
+}
+#end .title1{
+  font-size: 10rem;
+  text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+  color: black;
+  position: absolute;
+  top: 80px;
+}
+#end .title2{
+  font-size: 10rem;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  top: 80px;
+}
+#end .title3{
+  font-size: 12rem;
+  position: absolute;
+  bottom: 80px;
+  right: 0;
 }
